@@ -231,8 +231,14 @@ button {
 /* -----------TEAM----------- */
 
 .team {
-  padding: 96px 28px;
   background-color: #f4f4fd;
+}
+
+.team .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .team-title {
@@ -250,27 +256,52 @@ button {
   gap: 72px;
 }
 
-.team-list-container {}
+.team-list-container {
+  /* width: 264px;
+      height: 428px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-radius: 0 0 4px 4px;
+  box-shadow:
+    0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
 
 .card-foto {}
 
 .team-item-container {
-  width: 264px;
-  height: 428px;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 16px;
+  gap: 8px;
 }
 
 .team-member {}
 
 .member-descr {}
 
-.icon-list {}
+.icon-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  margin-top: 0;
+}
 
 .icon-item {}
 
 .social-link {}
 
-.icon {}
+.icon {
+  fill: #4d5ae5;
+  transition: fill 250 cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 /* -----------PORTFOLIO----------- */
 
