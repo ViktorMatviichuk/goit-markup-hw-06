@@ -1126,7 +1126,7 @@ button {
   color: #8e8f99;
 }
 
-.modal-check:checked+.modal-check-label span {
+.modal-check:checked+.modal-check-label .checkbox {
   background-color: #4d5ae5;
   border: none;
   fill: #fff;
